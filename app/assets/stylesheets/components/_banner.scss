@@ -1,0 +1,13 @@
+.home-banner {
+  background-image: url('https://i.pinimg.com/originals/de/3d/69/de3d6950a5caef1d7a520f580fce9b59.jpg'), linear-gradient(-225deg, rgba(0,91,118,0.6) 0%, rgba(0,36,61,0.6) 50%);
+  background-size: cover;
+  height: 100vh;
+  color: white;
+  text-align: center;
+  padding-top: 40vh;
+}
+
+.home-banner span {
+   background-color: black;
+   line-height: 10px;
+}
