@@ -75,3 +75,15 @@
   border-left: 1px solid #E6E6E6;
   border-top: 1px solid #E6E6E6;
 }
+
+.btn {
+  text-decoration: none;
+  color: white;
+  border-radius: 50px;
+  opacity: 0.8;
+  background-color: rgb(63, 97, 108);
+  &:hover{
+    opacity: 1;
+    color: white;
+  }
+}
