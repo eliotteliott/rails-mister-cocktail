@@ -1,4 +1,6 @@
-  <div class="cocktail-banner">
+<div class="cocktail-banner" style="background-image: url('<%= cl_image_path @cocktail.photo %>')">
+</div>
+
 <div class="container">
 <h1><%= @cocktail.name.capitalize %></h1>
 <h2>Ingredients</h2>
@@ -11,5 +13,3 @@
 <p><%= link_to "Add ingredients & doses", new_cocktail_dose_path(@cocktail) %></p>
   <p><%= link_to "🍹 Discover all cocktails", cocktails_path %></p>
 </div>
-
-

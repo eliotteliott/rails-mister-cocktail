@@ -13,11 +13,11 @@
 }
 
 .cocktail-banner {
-  background-image: url('https://images.unsplash.com/photo-1513416543495-10c173ed9908?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=aff0b38f8272e060f9c4430aa661e24f&auto=format&fit=crop&w=1350&q=80'), linear-gradient(-225deg, rgba(0,91,118,0.6) 0%, rgba(0,36,61,0.6) 50%);
   background-size: cover;
   height: 40vh;
   text-align: center;
   padding-top: 40vh;
+  background-position: center;
 }
 
 .cocktail-banner span {
