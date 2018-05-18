@@ -1,3 +1,15 @@
 .row  {
   margin: 45px;
 }
+
+.container {
+  height: calc(100vh - 25vh) !important;
+}
+
+* {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
